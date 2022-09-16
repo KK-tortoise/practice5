@@ -1,0 +1,9 @@
+@import 'base';
+
+@media (max-width: 500px) {
+    @import '500px';
+}
+
+@media (max-width: 1000px) {
+    @import '1000px';
+}

@@ -1,0 +1,12 @@
+#pickup {
+    & .pc-slick {
+        display: none;
+    }
+
+    & .mb-slick {
+        display: block !important;
+        & .slick-item {
+            padding: 0 30px;
+        }
+    }
+}
